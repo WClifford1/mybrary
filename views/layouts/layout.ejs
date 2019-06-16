@@ -7,10 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    Before
     <br>
-    <%= body %>
+    <%- include('../partials/header') %>
+    <%- include('../partials/errorMessage') %>
+    <%- include('../partials/authorCreated') %>
+    <%- body %>
     <br>
-    After
 </body>
 </html>
